@@ -1,0 +1,65 @@
+<!-- form -->
+<!DOCTYPE Html>
+<html>
+<head>
+
+
+</head>
+<body>
+
+<!-- when we want to send data one place to another place -->
+<!-- we can send data in two way 
+=>GET : 
+	=>Only 1000 char send at a time
+	=>all send data show in address bar 
+	=>By default Get method in any form
+	<form method="GET">	
+=>POSt
+	=>unlimited data send 
+	=>send Data not show any where (send data is hidden)
+	<form method="POST">
+-->
+<form method="POST">
+<p><input type="text" name="userName" placeholder="User name" required></p>
+<p><input type="email" name="userEmail" placeholder="User Email" required="required"></p>
+<p><input type="number" name="userNo"></p>
+<p>Male<input type="radio" name="gender">
+Female<input type="radio" name="gender"></p>
+<p><input type="checkbox" name="tm">Term`s and Condition</p>
+<p><textarea col="25" rows="5">  </textarea></p>
+<p>
+<!-- Day -->
+<select>
+<option> Day`s </option>
+<option> 1 </option>
+<option> 2 </option>
+<option> 3 </option>
+<option selected> 4 </option>
+<option> 5 </option>
+
+</select>
+<!-- month -->
+<select>
+<option> Month`s </option>
+<option> Jan </option>
+<option>Feb </option>
+<option> Mar</option>
+<option> Apr </option>
+<option selected> May </option>
+
+</select>
+
+</p>
+
+<p><input type="button" name="button" value="login"></p>
+<p><input type="submit"></p>
+
+
+
+
+</form>
+
+
+
+</body>
+</html>
