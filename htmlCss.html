@@ -1,0 +1,76 @@
+<!-- css use in three way 
+
+1. inline 
+	<body style="background-color:gray;">
+2. internal
+	by tagName 
+	 div/body{ width:20px/%}
+.....
+screnSize*desiredSize/100
+900*10/100 90	 
+	by className
+	
+	.ClassName{ width:20px/%} 
+	by IdName
+	#IdName{ width:20px/%} 
+	
+3. external 
+ 1 Create a new file with .css extension 
+ 2 link .css file with html file 
+ 
+ 
+ color :
+	1. color name  red/white/blue 
+	2. rgb(red,green,blue)
+	  red=0-255
+	  green=0-255
+	  blue=0-255
+	  rgb(15,25,65)
+	3. hexadecimal (base 16) 
+		0-9 
+		10: a
+		11: b
+		12: c
+		13: d
+		14: e
+		15: f
+		
+	#3e     3e       3e
+	 red 	Green    blue
+	#fff 
+	#3e3e3e	
+-->
+
+
+<html>
+
+<head>
+<style>
+/* 
+.className{height:150px;color:white;width:33%;float:left;
+background-color:red; }
+#idName{height:150px;color:red;width:33%;float:left; }
+
+*/
+</style>
+<!-- link css file here -->
+
+<link href="style.css" rel="stylesheet" />
+
+</head>
+<!-- inline -->
+<body style="background-color:gray;">
+
+
+<div class="className">hello1   </div>
+<div class="className">hello2   </div>
+<div class="className">hello3   </div>
+<div id="idName">hello3   </div>
+<div id="idName2">hello3   </div>
+
+<img src="bandhan kumari.jpg" width="150px" height="150px" />
+<p> hello p </p>
+</body>
+
+
+</html>
